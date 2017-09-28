@@ -16,7 +16,7 @@ UB      = 35   # Xi value Size Upper Bound
 def FitnessFunction(x):
     term1 = 0
     term2 =0
-    for i in range(D+1):
+    for i in range(D):
         #associated with ft1
         term1 =term1+ x[i]*x[i]
         #associated with ft2

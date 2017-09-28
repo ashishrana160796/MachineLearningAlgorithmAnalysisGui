@@ -15,7 +15,7 @@ UB      = 11.2   # Set Size Upper Bound
 
 def FitnessFunction(x):
 	result = 0
-	for i in range(D):
+	for i in range(D-1):
 		
 		g = m.exp(-0.1*(i+1)*x[0])-m.exp(-0.1*(i+1)*x[1])-m.exp(((-0.1*(i+1))-m.exp(-1*(i+1)))*x[2])
 		

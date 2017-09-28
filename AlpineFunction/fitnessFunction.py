@@ -15,7 +15,7 @@ UB      = 10   # Xi value Upper Bound
 def FitnessFunction(x):
     result=0
     # limit on x in not applied here
-    for i in range(D+1):
+    for i in range(D):
         result = result + abs(x[i]*m.sin(x[i])+0.1*x[i])    
     
         
