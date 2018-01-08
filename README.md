@@ -1,6 +1,6 @@
 #############################################################
 		Project Comparing Convergence Of Different Functions
-		With Different Optimization Algorithms namely Genetic Algorithm, Random, DE 
+		With Different Optimization Algorithms namely Genetic Algorithm, Random, DE,PSO 
 #############################################################
 
 Version 1.0
@@ -22,16 +22,21 @@ Comparitive study of different nature inspired benchmark functions for optimizat
 	A. RandomOptimization.py
 	B. GeneticAlgorithm.py
 	C. fitnessFunction.py
-	
+	D. DifferentialEvolution
+	E. ParticleSwarmOptimization
 	Graphs :
 	
 	A. ga.png
 	B. ro.png
+	c. de.png
+	D. pso.png
 	
 	CSV Files :
 	
 	A. resultGABasic.csv
 	B. RandomBasicResult.csv
+	C. resultDEBasic.csv
+	D. resultPSOBasic.csv
 
 	 
 #############################################################
